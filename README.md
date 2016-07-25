@@ -72,9 +72,11 @@ On the task pane, you can:
 * Search and highlight text in a document by entering word in the text box and selecting the **Search and Highlight** button.
   
 > NOTE:  Search is case-sensitive.  To undo an action, press Ctrl+Z on your keyboard.
+
 * Redact text in a document by entering word in the text box and selecting **Redact** button.
   
 > NOTE:  Redact is case-insensitive.   
+
 * Redact selected text in a document by choosing **Redact selected text** button.
   
 > NOTE:  Redact is case-insensitive.       
