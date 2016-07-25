@@ -1,0 +1,19 @@
+{
+  "name": "word-add-in-js-redact",
+  "version": "0.1.0",
+  "author": "Siew Moi Khor",
+  "license": "MIT",
+  "main": "server.js",
+  "description": "Learn how to use create document, styles, and the range functionality.",
+  "scripts": {
+      "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.12.3",
+    "path": "^0.11.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OfficeDev/Word-Add-in-JS-Redact"
+  }
+}

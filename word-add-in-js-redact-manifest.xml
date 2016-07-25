@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+           xsi:type="TaskPaneApp">
+    <!--Make sure your add-in guid is unique. Your add-in may not show up in the UI if this is not unique. -->
+    <Id>a836e4c1-7fac-4935-80f2-d201692dcacb</Id>
+    <Version>0.1.0</Version>
+    <ProviderName>Microsoft</ProviderName>
+    <DefaultLocale>en-us</DefaultLocale>
+    <!--This is the name shown in the Word UI.-->
+    <DisplayName DefaultValue="Word Redact add-in" />
+    <Description DefaultValue="Shows how to create an add-in that searches, highlights and redacts text." />
+    <!--Icon for your add-in. Used on installation screens and the add-ins dialog -->
+    <IconUrl DefaultValue="https://localhost:8088/InsertSpec_32x32_px.png" />
+    <Hosts>
+        <Host Name="Document" />
+    </Hosts>
+    <DefaultSettings>
+        <SourceLocation DefaultValue="https://localhost:8088" />
+    </DefaultSettings>
+    <Permissions>ReadWriteDocument</Permissions>
+
+    <!-- Add-in command declarations. See https://msdn.microsoft.com/EN-US/library/office/mt621545.aspx
+    for more information about add-in commands. -->
+    <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+        <Description resid="Group_ToolTip_Desc" />
+        <Hosts>
+            <Host xsi:type="Document">
+                <!-- DesktopFormFactor declares that the functionality is for Word on the Windows desktop. -->
+                <DesktopFormFactor>
+                <!--GetStarted information used on the callout that appears when installing the add-in.   
+                   Ensure you have build 16.0.6769 or above for GetStarted section to work-->  
+                     <GetStarted>  
+    					<!--Title of the Getting Started callout. resid points to a ShortString resource -->  
+    					<Title resid="Contoso.GetStarted.Title"/>  
+				  
+        				<!--Description of the Getting Started callout. resid points to a LongString resource -->  
+                        <Description resid="Contoso.GetStarted.Description"/> 
+                        
+    					<!--Not used right now but you need to provide a valid resource. We will add code in the future to consume this URL.   
+    						resid points to a Url resource -->  
+    					<LearnMoreUrl resid="Contoso.GetStarted.LearnMoreUrl"/>  
+        				</GetStarted>  
+
+                    <!-- Identifies the html file the contains a script reference to a function that an add-in command will use. -->
+                    <FunctionFile resid="InsertImageMenuUrl"/>
+                    <!-- PrimaryCommandSurface declares that this add-in
+                            command will be used from the ribbon in Office. -->
+                    <ExtensionPoint xsi:type="PrimaryCommandSurface">
+                        <!-- Add the add-in command button to a new tab. You can use other existing tabs, or create a custom tab. -->
+                        <OfficeTab id="TabReviewWord">
+                            <!-- This declares a group of buttons in the UI. -->
+                            <Group id="Group1">
+                                <!-- All resid attributes refer to a resource; checkout the Resources element below. -->
+                                <Label resid="GroupTitle" />
+                                <Icon>
+                                    <!--These are the required image sizes-->
+                                    <bt:Image size="16" resid="groupIcon1_16x16" />
+                                    <bt:Image size="32" resid="groupIcon1_32x32" />
+                                    <bt:Image size="80" resid="groupIcon1_80x80" />
+                                </Icon>
+                                <!--<Tooltip resid="Control_SuperTip_Label" />-->
+                                <!-- Declares a button -->
+                                <Control xsi:type="Button" id="Canvas.Button.Tab">
+                                    <Label resid="Control_Label" />
+                                    <Supertip>
+                                        <Title resid="Control_SuperTip_Label" />
+                                        <Description resid="Control_Taskpane_SuperTip_Desc" />
+                                    </Supertip>
+                                    <Icon>
+                                        <bt:Image size="16" resid="icon2_16x16" />
+                                        <bt:Image size="32" resid="icon2_32x32" />
+                                        <bt:Image size="80" resid="icon2_80x80" />
+                                    </Icon>
+                                    <!-- Declares what the button does. This button will show the task pane
+                                    and open the page identified by the Sample_Url resource. -->
+                                    <Action xsi:type="ShowTaskpane">
+                                        <SourceLocation resid="Sample_Url" />
+                                    </Action>
+                                </Control>
+                                 
+                            </Group>
+                            <!-- Label of your tab -->
+                            <!-- If validating with XSD it needs to be at the end, we might change this before release -->
+                            <Label resid="RedactTabTitle" />
+                        </OfficeTab>
+                    </ExtensionPoint>
+                    <!-- Declares a context menu that will run a script. -->                    
+                </DesktopFormFactor>
+            </Host>
+        </Hosts>
+        <!-- All attributes named resid refer to the resources
+                found in the Resources element. -->
+        <Resources>
+            <bt:Images>
+                <!-- Image resource URLs. These must be located at HTTPS endpoints.-->
+                <bt:Image id="groupIcon1_16x16" DefaultValue="https://localhost:8088/InsertSpec_16x16_px.png"></bt:Image>
+                <bt:Image id="groupIcon1_32x32" DefaultValue="https://localhost:8088/InsertSpec_32x32_px.png"></bt:Image>
+                <bt:Image id="groupIcon1_80x80" DefaultValue="https://localhost:8088/InsertSpec_80x80_px.png"></bt:Image>
+                <bt:Image id="icon1_16x16" DefaultValue="https://localhost:8088/Validate_16x16_px.png"></bt:Image>
+                <bt:Image id="icon1_32x32" DefaultValue="https://localhost:8088/Validate_32x32_px.png"></bt:Image>
+                <bt:Image id="icon1_80x80" DefaultValue="https://localhost:8088/Validate_80x80_px.png"></bt:Image>
+                <bt:Image id="icon2_16x16" DefaultValue="https://localhost:8088/InsertSpec_16x16_px.png"></bt:Image>
+                <bt:Image id="icon2_32x32" DefaultValue="https://localhost:8088/InsertSpec_32x32_px.png"></bt:Image>
+                <bt:Image id="icon2_80x80" DefaultValue="https://localhost:8088/InsertSpec_80x80_px.png"></bt:Image>
+            </bt:Images>
+            <bt:Urls>
+                <bt:Url id="Sample_Url" DefaultValue="https://localhost:8088">
+                    <bt:Override Locale="ja-jp" Value="https://localhost:8088" />
+                </bt:Url>
+                <bt:Url id="InsertImageMenuUrl" DefaultValue="https://localhost:8088/functionfile.html">
+
+                </bt:Url>
+                <!--LearnMore URL currently not used -->  
+                <bt:Url id="Contoso.GetStarted.LearnMoreUrl" DefaultValue="https://github.com/OfficeDev/Word-Add-in-JS-Redact">  
+                </bt:Url>  
+
+            </bt:Urls>
+            <!-- Be careful about mixing up what can be a short and a long string.
+                    A common issue with add-in commands is mixing short and long strings.
+                    Read the documentation to make sure you use the correct string type.
+                    https://msdn.microsoft.com/EN-US/library/office/mt621545.aspx -->
+            <bt:ShortStrings>
+                <!-- Delete this if not used -->
+                <bt:String id="EmptyShortString" DefaultValue=" ">
+                </bt:String>
+                <bt:String id="RedactTabTitle" DefaultValue="Redact add-in">
+                </bt:String>
+                <bt:String id="GroupTitle" DefaultValue="Redact add-in commands">
+                </bt:String>
+                <bt:String id="Control_Label" DefaultValue="Show Redaction Task Pane">
+                </bt:String>                
+                <bt:String id="Control_Tooltip" DefaultValue="Redact add-in">
+                </bt:String>
+                <bt:String id="Control_SuperTip_Label" DefaultValue="Redact add-in">
+                </bt:String>               
+                <bt:String id="Ctx_Control_SuperTip_Label" DefaultValue="Redact add-in supertip">
+                </bt:String>
+                <bt:String id="Contoso.GetStarted.Title" DefaultValue="Word Redact add-in has loaded successfully">  
+                </bt:String>   
+
+            </bt:ShortStrings>
+            <bt:LongStrings>
+                <!-- Delete this if not used -->
+                <bt:String id="EmptyLongString" DefaultValue=" ">
+                </bt:String>
+                <bt:String id="Group_ToolTip_Desc" DefaultValue="This add-in demonstrates how you can use the implement validation and boilerplate functionality.">
+                </bt:String>
+                <bt:String id="Control_Taskpane_SuperTip_Desc" DefaultValue="Open the Redact add-in in the task pane.">
+                </bt:String>
+                <bt:String id="Contoso.GetStarted.Description" DefaultValue="Click the Redact add-in tab on the Office ribbon to use the add-in">  
+                </bt:String>     
+            </bt:LongStrings>
+        </Resources>
+    </VersionOverrides>
+</OfficeApp>

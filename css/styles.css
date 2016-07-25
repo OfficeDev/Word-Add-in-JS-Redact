@@ -1,0 +1,207 @@
+/* Common app styling */
+
+#notification-message {
+    background-color: #818285;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    min-height: 80px;
+    right: 0;
+    z-index: 100;
+    bottom: 0;
+    display: none; /* Hidden until invoked */
+}
+
+    #notification-message-header {
+        font-size: medium;
+        margin-bottom: 10px;
+    }
+
+    #notification-message-close {
+        background-image: url("../Images/Close.png");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        cursor: pointer;
+    }
+
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    color: #000000;
+    background-color:#E6E6E6;
+    display:block;
+    box-sizing: border-box;
+    font-family: 'Segoe UI 11pt';
+    height:calc(100% -- 20px);
+    padding: 20px;
+}
+
+.jumbotron .header {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left: 5px; 
+}
+
+.jumbotron .text {
+    margin-bottom: 25px;
+    padding-left: 80px;
+}
+
+#content-main {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /*background: #fff;*/
+    position: fixed;
+    overflow: auto;  /*Enable scrollbars within main content section*/ 
+}
+
+#padding {
+    padding: 15px;
+}
+
+#notUse {
+    background-color:#41AEBD;
+    color:#FFFFFF;
+    font-family: 'Segoe UI';
+    font-size:12px;
+    position:center;
+    border:none;
+    margin-left:6px;
+    margin-right:40px;
+    margin-top:12px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom:0;
+    margin-left: 1px;
+    height:40px;
+    background-color: #F8F8F8;
+    display:block;
+    box-sizing:border-box;
+    font-family: 'Segoe UI';
+    width: 100%;
+    
+}
+
+.footer .brand-text {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin:10px;
+    margin-left:5px;
+    margin-bottom:20px;
+    width: 100%;
+    
+}
+
+.query-button{
+    background: #C0DDE3;
+    border-color: #41AEBD;
+    color: #767676;
+    width:75%;
+    margin:2px;
+}
+
+.query-button:hover, .query-button:focus {
+    background: #C0DDE3;
+}
+
+.query-button:active, .query-button:after {
+    background: #22737E;
+    color: #C0DDE3;
+}
+
+#show-all-categories {
+ margin-bottom: 100px;
+  margin-left: 2px;
+}
+
+#show-selected-categories {
+ margin-left: 2px;
+}
+
+.ms-CommandBar {
+    background-color:#E6E6E6;
+}
+
+.ms-CommandBarItem-icon {
+    color:#41AEBD;
+}
+
+.analyze-header {
+    padding:10px;
+    padding-bottom:30px;
+}
+
+.section-heading {
+    padding:10px;
+    color: #41AEBD;
+}
+
+hr {
+    color:#41AEBD;
+    width:90%;
+    margin-top:5px;
+    margin-bottom:3px;
+}
+
+.ms-ChoiceField {
+    display:block;
+    margin:1px;
+    color: #41AEBD;
+}
+
+.ms-Spinner {
+    position: fixed;
+    z-index: 1000;
+    top: 68%;
+    bottom: 50%;
+    left: 46%;
+    right: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.ms-Spinner-circle {
+  background-color: #41AEBD;
+}
+
+
+#btnSearch, #btnRedact, #btnRedactSelection {
+    background-color:#C8C8C8;
+    color:#FFFFFF;
+    font-family: 'Segoe UI';
+    font-size:12px;
+    position:center;
+    border:none;
+    margin-left:0px;
+    margin-right:40px;
+    margin-top:12px;
+    margin-bottom: 10px;
+}
+
+.ms-Button {
+    margin-top: 5px !important;
+    color:#666666;
+    height: auto;
+    padding: 0px 20px 0px;
+    width: 100%;
+}
+
+.ms-Grid-col{
+    width: 100% !important;
+}
+
+.ms-Grid-row{
+    padding: 8px !important;
+}
+
+/* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See full license in root of repo. */
+
+
