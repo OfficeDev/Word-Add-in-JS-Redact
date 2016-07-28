@@ -3,13 +3,13 @@
 Saiba como criar um suplemento para pesquisar, realçar e editar texto.    
 
 ## Sumário
-* [Histórico de Alterações](#change-history)
-* [Observação importante](#important-note)
-* [Pré-requisitos](#prerequisites)
-* [Configurar o projeto](#configure-the-project)
-* [Executar o projeto](#run-the-project)
-* [Perguntas e comentários](#questions-and-comments)
-* [Recursos adicionais](#additional-resources)
+* [Histórico de Alterações](#histórico-de-alterações)
+* [Observação importante](#bservação-importante)
+* [Pré-requisitos](#pré-requisitos)
+* [Configurar o projeto](#configurar-o-projeto)
+* [Executar o projeto](#executar-o-projeto)
+* [Perguntas e comentários](#perguntas-e-comentários)
+* [Recursos adicionais](#recursos-adicionais)
 
 ## Change History
 

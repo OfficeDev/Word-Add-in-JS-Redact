@@ -21,7 +21,7 @@ Découvrez comment créer un complément qui recherche, met en surbrillance et r
 
 Cet exemple rédige du texte en remplaçant chaque lettre par un astérisque.  La disposition n’est pas conservée telle quelle.  Aucune mesure ni aucun calcul n’est effectué pour déterminer la police, la taille ou la mise en forme de chaque lettre.
 
-## Conditions préalables
+## Conditions requises
 
 * Word 2016 pour Windows, build 16.0.6912.1000 ou ultérieur.
 * [Node et npm](https://nodejs.org/en/)

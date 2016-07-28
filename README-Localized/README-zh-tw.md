@@ -3,13 +3,13 @@
 了解如何建立可搜尋、反白及編寫文字的增益集。    
 
 ## 目錄
-* [變更歷程記錄](#change-history)
-* [重要事項](#important-note)
-* [必要條件](#prerequisites)
-* [設定專案](#configure-the-project)
-* [執行專案](#run-the-project)
-* [問題和建議](#questions-and-comments)
-* [其他資源](#additional-resources)
+* [變更歷程記錄](#變更歷程記錄)
+* [重要事項](#重要事項)
+* [必要條件](#必要條件)
+* [設定專案](#設定專案)
+* [執行專案](#執行專案)
+* [問題和建議](#問題和建議)
+* [其他資源](#其他資源)
 
 ## 變更歷程記錄
 
