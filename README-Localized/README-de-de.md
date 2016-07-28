@@ -3,7 +3,7 @@
 Erfahren Sie, wie Sie ein Add-In erstellen können, das Text sucht, hervorhebt und bearbeitet.    
 
 ## Inhaltsverzeichnis
-* [Änderungsverlauf](#anderungsverlauf)
+* [Änderungsverlauf](#Änderungsverlauf)
 * [Wichtiger Hinweis](#important-note)
 * [Anforderungen](#prerequisites)
 * [Konfigurieren des Projekts](#configure-the-project)
