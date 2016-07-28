@@ -23,7 +23,7 @@ Cet exemple rédige du texte en remplaçant chaque lettre par un astérisque.  L
 ## Conditions préalables
 
 * Word 2016 pour Windows, build 16.0.6912.1000 ou ultérieur.
-* [Nœud et npm](https://nodejs.org/en/)
+* [Node et npm](https://nodejs.org/en/)
 * [GIT Bash](https://git-scm.com/downloads) - Vous devez utiliser une version ultérieure, car les builds antérieurs peuvent afficher une erreur lors de la génération de certificats.
 
 ## Configurer le projet

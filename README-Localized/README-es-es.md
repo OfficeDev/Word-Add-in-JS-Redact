@@ -23,7 +23,7 @@ En este ejemplo se censura texto al reemplazar cada letra con un asterisco.  El 
 ## Requisitos previos
 
 * Word 2016 para Windows, compilación 16.0.6912.1000 o posterior.
-* [Nodo y npm](https://nodejs.org/en/)
+* [Node y npm](https://nodejs.org/en/)
 * [GIT Bash](https://git-scm.com/downloads): debe usar una compilación posterior, ya que las compilaciones anteriores pueden mostrar un error al generar los certificados.
 
 ## Configurar el proyecto

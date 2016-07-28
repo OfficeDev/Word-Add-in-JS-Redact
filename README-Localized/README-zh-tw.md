@@ -23,7 +23,7 @@
 ## 必要條件
 
 * Word 2016 for Windows，組建 16.0.6912.1000 或更新版本。
-* [節點和 npm](https://nodejs.org/en/)
+* [Node 和 npm](https://nodejs.org/en/)
 * [Git Bash](https://git-scm.com/downloads) - 您應該使用較新的組建，因為較早的組建在建立憑證時會顯示錯誤。
 
 ## 設定專案

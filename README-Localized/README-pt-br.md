@@ -23,7 +23,7 @@ Neste exemplo, o texto é editado substituindo as letras por um asterisco.  O la
 ## Pré-requisitos
 
 * Word 2016 para Windows, compilação 16.0.6912.1000 ou superior.
-* [Nó e npm](https://nodejs.org/en/)
+* [Node e npm](https://nodejs.org/en/)
 * [Git Bash](https://git-scm.com/downloads) - Você deve usar uma versão mais recente já que as versões anteriores podem mostrar um erro ao gerar os certificados.
 
 ## Configurar o projeto

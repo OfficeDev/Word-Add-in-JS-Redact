@@ -23,7 +23,7 @@
 ## 先决条件
 
 * Word 2016 for Windows，内部版本 16.0.6912.1000 或更高版本。
-* [节点和 npm](https://nodejs.org/en/)
+* [Node 与 npm](https://nodejs.org/en/)
 * [Git Bash](https://git-scm.com/downloads) - 应使用较高的内部版本，因为早期内部版本在生成证书时可能会显示错误。
 
 ## 配置项目
