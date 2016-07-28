@@ -4,7 +4,7 @@ Erfahren Sie, wie Sie ein Add-In erstellen können, das Text sucht, hervorhebt u
 
 ## Inhaltsverzeichnis
 * [Änderungsverlauf](#Änderungsverlauf)
-* [Wichtiger Hinweis](#Wichtiger-Hinweis)
+* [Wichtiger Hinweis](#wichtiger-hinweis)
 * [Anforderungen](#Anforderungen)
 * [Konfigurieren des Projekts](#Konfigurieren des Projekts)
 * [Ausführen des Projekts](#Ausführen des Projekts)
