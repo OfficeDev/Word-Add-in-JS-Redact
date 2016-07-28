@@ -5,11 +5,11 @@ Erfahren Sie, wie Sie ein Add-In erstellen können, das Text sucht, hervorhebt u
 ## Inhaltsverzeichnis
 * [Änderungsverlauf](#Änderungsverlauf)
 * [Wichtiger Hinweis](#wichtiger-hinweis)
-* [Anforderungen](#Anforderungen)
-* [Konfigurieren des Projekts](#Konfigurieren des Projekts)
-* [Ausführen des Projekts](#Ausführen des Projekts)
-* [Fragen und Kommentare](#Fragen und Kommentare)
-* [Zusätzliche Ressourcen](#Zusätzliche Ressourcen)
+* [Anforderungen](#anforderungen)
+* [Konfigurieren des Projekts](#konfigurieren-des-projekts)
+* [Ausführen des Projekts](#ausführen-des-projekts)
+* [Fragen und Kommentare](#fragen-und-kommentare)
+* [Zusätzliche Ressourcen](#zusätzliche-ressourcen)
 
 ## Änderungsverlauf
 
