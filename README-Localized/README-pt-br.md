@@ -11,12 +11,12 @@ Saiba como criar um suplemento para pesquisar, realçar e editar texto.
 * [Perguntas e comentários](#perguntas-e-comentários)
 * [Recursos adicionais](#recursos-adicionais)
 
-## Change History
+## Histórico de Alterações
 
 25 de julho de 2016:
 * Versão inicial do exemplo.
 
-##Observação sobre importante
+##Observação importante
 
 Neste exemplo, o texto é editado substituindo as letras por um asterisco.  O layout não é preservado como tal.  Não há realização de medidas ou cálculos para determinar a fonte, o tamanho ou a formatação das letras.
 
