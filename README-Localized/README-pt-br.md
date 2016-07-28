@@ -4,7 +4,7 @@ Saiba como criar um suplemento para pesquisar, realçar e editar texto.
 
 ## Sumário
 * [Histórico de Alterações](#histórico-de-alterações)
-* [Observação importante](#bservação-importante)
+* [Observação importante](#observação-importante)
 * [Pré-requisitos](#pré-requisitos)
 * [Configurar o projeto](#configurar-o-projeto)
 * [Executar o projeto](#executar-o-projeto)
