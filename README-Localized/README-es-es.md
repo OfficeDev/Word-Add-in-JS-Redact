@@ -3,13 +3,13 @@
 Obtenga información sobre cómo crear un complemento que busca, resalta y censura texto.    
 
 ## Tabla de contenido
-* [Historial de cambios](#change-history)
-* [Nota importante](#important-note)
-* [Requisitos previos](#prerequisites)
-* [Configurar el proyecto](#configure-the-project)
-* [Ejecutar el proyecto](#run-the-project)
-* [Preguntas y comentarios](#questions-and-comments)
-* [Recursos adicionales](#additional-resources)
+* [Historial de cambios](#historial-de-cambios)
+* [Nota importante](#nota-importante)
+* [Requisitos previos](#requisitos-previos)
+* [Configurar el proyecto](#configurar-el-proyecto)
+* [Ejecutar el proyecto](#ejecutar-el-proyecto)
+* [Preguntas y comentarios](#preguntas-y-comentarios)
+* [Recursos adicionales](#recursos-adicionales)
 
 ## Historial de cambios
 

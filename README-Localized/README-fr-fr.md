@@ -3,13 +3,14 @@
 Découvrez comment créer un complément qui recherche, met en surbrillance et rédige du texte.    
 
 ## Table des matières
-* [Historique des modifications](#change-history)
-* [Remarque importante](#important-note)
-* [Conditions requises](#prerequisites)
-* [Configurer le projet](#configure-the-project)
-* [Exécuter le projet](#run-the-project)
-* [Questions et commentaires](#questions-and-comments)
-* [Ressources supplémentaires](#additional-resources)
+* [Historique des modifications](#historique-des-modifications)
+* [Remarque importante](#remarque-importante)
+* [Conditions requises](#conditions-requises)
+* [Configurer le projet](#configurer-le-projet)
+* [Exécuter le projet](#exécuter-le-projet)
+* [Questions et commentaires](#questions-et-commentaires)
+* [Ressources supplémentaires](#ressources-supplémentaires)
+
 
 ## Historique des modifications
 
