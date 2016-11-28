@@ -64,7 +64,7 @@ var RedactAddin;
             { message: "Error", description: error.toString() });
 
         Office.context.ui.displayDialogAsync(url,
-            { height: 17, width: 15, requireHTTPS: true });
+            { height: 17, width: 15});
 
         console.log('Error: ' + JSON.stringify(error));
         if (error instanceof OfficeExtension.Error) {
