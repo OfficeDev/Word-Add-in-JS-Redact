@@ -7,7 +7,7 @@
     <!--Make sure your add-in guid is unique. Your add-in may not show up in the UI if this is not unique. -->
     <Id>a836e4c1-7fac-4935-80f2-d201692dcacb</Id>
     <Version>0.1.0</Version>
-    <ProviderName>Microsoft</ProviderName>
+    <ProviderName>Contoso</ProviderName>
     <DefaultLocale>en-us</DefaultLocale>
     <!--This is the name shown in the Word UI.-->
     <DisplayName DefaultValue="Word Redact add-in" />
