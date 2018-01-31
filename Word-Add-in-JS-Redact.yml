@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: 'Word add-in: How to search, highlight, and redact text'
+  path: ''
+  description: This Word add-in sample shows how you can create an add-in that searches, highlights and redacts text.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-ins
+  azureDeploy: ''
+  author: rick-kirkham
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Word
+    scenarios: []
