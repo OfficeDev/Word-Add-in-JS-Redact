@@ -16,7 +16,7 @@
 2016 年 7 月 25 日：
 * 初始範例版本。
 
-##<a name="important-note"></a>重要事項
+## <a name="important-note"></a>重要事項
 
 此編寫文字範例是以星號取代每個字母。版面配置不會完全保留。沒有進行測量和計算來判斷字型、大小或每個字母的格式。
 
@@ -93,7 +93,8 @@
 
 ## <a name="additional-resources"></a>其他資源
 
-* 
+* 
+
   [Office 增益集文件](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office 開發人員中心](http://dev.office.com/)
 * [Office 365 API 入門專案和程式碼範例](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
