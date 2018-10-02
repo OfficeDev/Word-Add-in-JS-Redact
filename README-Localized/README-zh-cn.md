@@ -16,7 +16,7 @@
 2016 年 7 月 25 日：
 * 初始示例版本。
 
-##<a name="important-note"></a>重要说明
+## <a name="important-note"></a>重要说明
 
 此示例通过使用星号替换每个字母来修订文本。因此不保留布局。确定每个字母的字体、大小或格式时并未进行测量和计算。
 
@@ -93,7 +93,8 @@
 
 ## <a name="additional-resources"></a>其他资源
 
-* 
+* 
+
   [Office 外接程序文档](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office 开发人员中心](http://dev.office.com/)
 * [Office 365 API 入门项目和代码示例](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
