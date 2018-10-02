@@ -16,7 +16,7 @@ Saiba como criar um suplemento para pesquisar, realçar e editar texto.
 25 de julho de 2016:
 * Versão inicial do exemplo.
 
-##<a name="important-note"></a>Observação importante
+## <a name="important-note"></a>Observação importante
 
 Neste exemplo, o texto é editado substituindo as letras por um asterisco. O layout não é preservado como tal. Não há realização de medidas ou cálculos para determinar a fonte, o tamanho ou a formatação das letras.
 
@@ -93,7 +93,8 @@ As perguntas sobre o desenvolvimento do Office 365 em geral devem ser postadas n
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-* 
+* 
+
   [Documentação dos suplementos do Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centro de Desenvolvimento do Office](http://dev.office.com/)
 * [Exemplos de código e projetos iniciais de APIs do Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
