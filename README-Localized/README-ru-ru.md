@@ -16,7 +16,7 @@
 25 июля 2016 г.
 * Создание исходной версии примера.
 
-##<a name="important-note"></a>Важно!
+## <a name="important-note"></a>Важно!
 
 В этом примере каждая буква в тексте заменяется звездочкой.  Макет не сохраняется.  Шрифт, размер и форматирование букв не определяются.
 
@@ -93,7 +93,8 @@
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-* 
+* 
+
   [Документация по надстройкам Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Центр разработки для Office](http://dev.office.com/)
 * [Проекты API Office 365 и примеры кода для начинающих](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
