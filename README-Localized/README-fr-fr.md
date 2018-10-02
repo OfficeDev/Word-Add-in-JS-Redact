@@ -16,7 +16,7 @@ Découvrez comment créer un complément qui recherche, met en surbrillance et r
 25 juillet 2016 :
 * Version de l’exemple initial.
 
-##<a name="important-note"></a>Remarque importante
+## <a name="important-note"></a>Remarque importante
 
 Cet exemple rédige du texte en remplaçant chaque lettre par un astérisque.  La disposition n’est pas conservée telle quelle.  Aucune mesure ni aucun calcul n’est effectué pour déterminer la police, la taille ou la mise en forme de chaque lettre.
 
@@ -93,7 +93,8 @@ Si vous avez des questions générales sur le développement de Microsoft Office
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-* 
+* 
+
   [Documentation de complément Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centre de développement Office](http://dev.office.com/)
 * [Projets de démarrage et exemples de code des API Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
