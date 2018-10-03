@@ -16,7 +16,7 @@ Obtenga información sobre cómo crear un complemento que busca, resalta y censu
 25 de julio de 2016:
 * Versión de ejemplo inicial.
 
-##<a name="important-note"></a>Nota importante
+## <a name="important-note"></a>Nota importante
 
 En este ejemplo se censura texto al reemplazar cada letra con un asterisco.  El diseño no se conserva tal cual.  No se realiza ninguna medida ni cálculo para determinar el tipo de letra, el tamaño ni el formato de cada letra.
 
@@ -93,7 +93,8 @@ Las preguntas generales sobre desarrollo en Microsoft Office 365 deben publicars
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-* 
+* 
+
   [Documentación de complementos de Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centro de desarrollo de Office](http://dev.office.com/)
 * [Proyectos de inicio y ejemplos de código de las API de Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)

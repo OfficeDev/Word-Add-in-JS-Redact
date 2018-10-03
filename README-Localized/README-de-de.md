@@ -16,7 +16,7 @@ Erfahren Sie, wie Sie ein Add-In erstellen können, das Text sucht, hervorhebt u
 25. Juli 2016:
 * Erste Beispielversion
 
-##<a name="important-note"></a>Wichtiger Hinweis
+## <a name="important-note"></a>Wichtiger Hinweis
 
 In diesem Beispiel wird Text bearbeitet, indem jeder Buchstabe durch ein Sternchen ersetzt wird.  Das Layout als solches wird nicht beibehalten.  Es wird keine Messung und Berechnung ausgeführt, um die Schriftart, Größe oder Formatierung der Buchstaben zu ermitteln.
 
@@ -93,7 +93,8 @@ Allgemeine Fragen zur Microsoft Office 365-Entwicklung sollten in [Stack Overflo
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 
-* 
+* 
+
   [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office Dev Center](http://dev.office.com/)
 * [Office 365 APIs – Startprojekte und Codebeispiele](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)

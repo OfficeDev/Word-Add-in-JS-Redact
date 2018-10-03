@@ -16,7 +16,7 @@
 2016 年 7 月 25 日
 * サンプルの初期バージョン。
 
-##<a name="important-note"></a>重要なメモ
+## <a name="important-note"></a>重要なメモ
 
 このサンプルでは、各文字をアスタリスクに置き換えてテキストを編集します。レイアウトは保持されません。各文字のフォント、サイズ、または書式設定を判別するための測定や計算は行われません。
 
@@ -93,7 +93,8 @@ Microsoft Office 365 開発全般の質問につきましては、「[スタッ�
 
 ## <a name="additional-resources"></a>その他の技術情報
 
-* 
+* 
+
   [Office アドインのドキュメント](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office デベロッパー センター](http://dev.office.com/)
 * [Office 365 API スタート プロジェクトとコード サンプル](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)

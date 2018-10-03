@@ -16,7 +16,7 @@ Learn how you can create an add-in that searches, highlights and redacts text.
 July 25, 2016:
 * Initial sample version.
 
-##Important note
+## Important note
 
 This sample redacts text by replacing each letter with an asterisk.  The layout is not preserve as such.  No measurement and calculation is done to determine font, size, or formatting of each letter.
 
