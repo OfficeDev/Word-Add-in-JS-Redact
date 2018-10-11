@@ -3,14 +3,14 @@
  * See LICENSE in the project root for license information.
  */
 
-var path = require('path');
-var fs = require('fs');
-var https = require('https');
-var express = require('express');
-var app = express();
+let path = require('path');
+let fs = require('fs');
+let https = require('https');
+let express = require('express');
+let app = express();
 
 // Set the address and the certificate.
-var options = {
+let options = {
     hostname: 'localhost',
     key: fs.readFileSync('server.key'),
     cert: fs.readFileSync('server.crt'),
@@ -19,7 +19,7 @@ var options = {
 
 // Define the port. The service uses 'localhost' as the host address.
 // Set the host member in the options object to set a custom host domain name or IP address.
-var port = 8088;
+let port = 8088;
 
 // Set the front-end folder to serve public assets.
 app.use(express.static(__dirname + '/scripts'));
@@ -36,19 +36,19 @@ app.use(express.static(__dirname));
 
 // Set the route to the index.html file.
 app.get('/', function(req, res) {
-    var homepage = path.join(__dirname, 'index.html');
+    let homepage = path.join(__dirname, 'index.html');
     res.sendFile(homepage);
 });
 
 // Set the route for the HTML served to the dialog API call.
 app.get('/dialogCount', function(req, res) {
-    var homepage = path.join(__dirname, 'dialogCount.html');
+    let homepage = path.join(__dirname, 'dialogCount.html');
     res.sendFile(homepage);
 });
 
 // Set the route for the HTML served to the dialog API call.
 app.get('/dialogAlert', function(req, res) {
-    var homepage = path.join(__dirname, 'dialogAlert.html');
+    let homepage = path.join(__dirname, 'dialogAlert.html');
     res.sendFile(homepage);
 });
 
