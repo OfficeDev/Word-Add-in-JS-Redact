@@ -16,7 +16,7 @@
 2016 年 7 月 25 日
 * サンプルの初期バージョン。
 
-##<a name="important-note"></a>重要なメモ
+## <a name="important-note"></a>重要なメモ
 
 このサンプルでは、各文字をアスタリスクに置き換えてテキストを編集します。レイアウトは保持されません。各文字のフォント、サイズ、または書式設定を判別するための測定や計算は行われません。
 
@@ -42,7 +42,7 @@
 
 次に、Microsoft Word がアドインを検索する場所を認識できるようにする必要があります。
 
-1. ネットワーク共有を作成するか、[ネットワークでフォルダーを共有し](https://technet.microsoft.com/en-us/library/cc770880.aspx)、そのフォルダーに [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml) マニフェスト ファイルを配置します。
+1. ネットワーク共有を作成するか、[ネットワークでフォルダーを共有し](https://technet.microsoft.com/ja-jp/library/cc770880.aspx)、そのフォルダーに [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml) マニフェスト ファイルを配置します。
 3. Word を起動し、ドキュメントを開きます。
 4. [**ファイル**] タブを選択し、[**オプション**] を選択します。
 5. [**セキュリティ センター**] を選択し、[**セキュリティ センターの設定**] ボタンを選択します。
@@ -54,7 +54,7 @@
 ## <a name="run-the-project"></a>プロジェクトを実行する
 
 1. Word 文書を開きます。
-2. Word 2016 の**[挿入]** タブで、**[マイ アドイン]** を選択します。
+2. Word 2016 の **[挿入]** タブで、**[マイ アドイン]** を選択します。
 3. **[共有フォルダー]** タブを選択します。
 4. **[Word Redact アドイン]** を選択して、**[OK]** を選択します。
 5. ご使用の Word バージョンでアドイン コマンドがサポートされている場合、UI によってアドインが読み込まれたことが通知されます。
@@ -64,16 +64,16 @@
 リボンで、次の操作を実行します。
 * **[校閲]** タブを選択し、**[Show Redaction Task Pane]** を選択して作業ウィンドウを起動します。
 
- > 注:アドイン コマンドが Word バージョンによってサポートされていない場合は、アドインが作業ウィンドウに読み込まれます。
+ > 注: アドイン コマンドが Word バージョンによってサポートされていない場合は、アドインが作業ウィンドウに読み込まれます。
 
 ### <a name="task-pane-ui"></a>作業ウィンドウの UI
 
 作業ウィンドウで次の操作を実行できます。
-* 文書内でテキストを検索して強調表示するには、テキスト ボックスに単語を入力して**[Search and Highlight]** ボタンを選択します。
+* 文書内でテキストを検索して強調表示するには、テキスト ボックスに単語を入力して **[Search and Highlight]** ボタンを選択します。
   
 > 注:検索では大文字と小文字が区別されます。操作を元に戻すには、キーボードの Ctrl キーを押しながら Z キーを押します。
 
-* 文書内のテキストを編集するには、テキスト ボックスに単語を入力して**[Redact]** ボタンを選択します。
+* 文書内のテキストを編集するには、テキスト ボックスに単語を入力して **[Redact]** ボタンを選択します。
   
 > 注:Redact では大文字と小文字が区別されません。   
 
@@ -93,13 +93,12 @@ Microsoft Office 365 開発全般の質問につきましては、「[スタッ�
 
 ## <a name="additional-resources"></a>その他の技術情報
 
-* 
-  [Office アドインのドキュメント](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Office アドインのドキュメント](https://msdn.microsoft.com/ja-jp/library/office/jj220060.aspx)
 * [Office デベロッパー センター](http://dev.office.com/)
-* [Office 365 API スタート プロジェクトとコード サンプル](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
+* [Office 365 API スタート プロジェクトとコード サンプル](http://msdn.microsoft.com/ja-jp/office/office365/howto/starter-projects-and-code-samples)
 
 ## <a name="copyright"></a>著作権
-Copyright (c) 2016 Microsoft Corporation.All rights reserved.
+Copyright (c) 2016 Microsoft Corporation. All rights reserved.
 
 
 

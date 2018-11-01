@@ -16,7 +16,7 @@ Saiba como criar um suplemento para pesquisar, realçar e editar texto.
 25 de julho de 2016:
 * Versão inicial do exemplo.
 
-##<a name="important-note"></a>Observação importante
+## <a name="important-note"></a>Observação importante
 
 Neste exemplo, o texto é editado substituindo as letras por um asterisco. O layout não é preservado como tal. Não há realização de medidas ou cálculos para determinar a fonte, o tamanho ou a formatação das letras.
 
@@ -42,7 +42,7 @@ Execute os seguintes comandos do shell do Bash na raiz do projeto:
 
 Agora, você precisa informar ao Microsoft Word onde encontrar o suplemento.
 
-1. Crie um compartilhamento de rede ou [compartilhe uma pasta para a rede](https://technet.microsoft.com/en-us/library/cc770880.aspx) e coloque o arquivo de manifesto [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml) nele.
+1. Crie um compartilhamento de rede ou [compartilhe uma pasta para a rede](https://technet.microsoft.com/pt-br/library/cc770880.aspx) e coloque o arquivo de manifesto [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml) nele.
 3. Inicie o Word e abra um documento.
 4. Escolha a guia **Arquivo** e escolha **Opções**.
 5. Escolha **Central de Confiabilidade**, e escolha o botão **Configurações da Central de Confiabilidade**.
@@ -81,7 +81,7 @@ No painel de tarefas, você pode:
   
 > OBSERVAÇÃO:  o recurso Redact diferencia maiúsculas de minúsculas.       
   
-### <a name="add-in-commands"></a>Comandos de suplemento
+### <a name="add-in-commands"></a>Comandos de suplementos
 
 Este exemplo mostra como criar comandos de suplemento na Faixa de Opções. As declarações de comando do suplemento estão localizadas em word-add-in-js-redact-manifest.xml. 
 
@@ -93,13 +93,12 @@ As perguntas sobre o desenvolvimento do Office 365 em geral devem ser postadas n
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-* 
-  [Documentação dos suplementos do Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Documentação dos suplementos do Office](https://msdn.microsoft.com/pt-br/library/office/jj220060.aspx)
 * [Centro de Desenvolvimento do Office](http://dev.office.com/)
-* [Exemplos de código e projetos iniciais de APIs do Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
+* [Exemplos de código e projetos iniciais de APIs do Office 365](http://msdn.microsoft.com/pt-br/office/office365/howto/starter-projects-and-code-samples)
 
-## <a name="copyright"></a>Copyright
-Copyright (c) 2016 Microsoft Corporation. Todos os direitos reservados.
+## <a name="copyright"></a>Direitos autorais
+Copyright (C) 2016 Microsoft Corporation. Todos os direitos reservados.
 
 
 

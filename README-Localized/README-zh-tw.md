@@ -16,7 +16,7 @@
 2016 年 7 月 25 日：
 * 初始範例版本。
 
-##<a name="important-note"></a>重要事項
+## <a name="important-note"></a>重要事項
 
 此編寫文字範例是以星號取代每個字母。版面配置不會完全保留。沒有進行測量和計算來判斷字型、大小或每個字母的格式。
 
@@ -42,7 +42,7 @@
 
 現在，您需要讓 Microsoft Word 知道哪裡可以找到此增益集。
 
-1. 建立網路共用，或[共用網路資料夾](https://technet.microsoft.com/en-us/library/cc770880.aspx)，並將 [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml) 資訊清單檔案放置在其中。
+1. 建立網路共用，或[共用網路資料夾](https://technet.microsoft.com/zh-tw/library/cc770880.aspx)，並將 [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml) 資訊清單檔案放置在其中。
 3. 啟動 Word 並開啟一個文件。
 4. 選擇 [檔案]**** 索引標籤，然後選擇 [選項]****。
 5. 選擇 [信任中心]****，然後選擇 [信任中心設定]**** 按鈕。
@@ -64,7 +64,7 @@
 在功能區上：
 * 選取 [檢閱]**** 索引標籤，然後選擇 [顯示 Redaction 工作窗格]**** 來啟動工作窗格。
 
- > 注意：如果您的 Word 版本不支援增益集命令，增益集會載入工作窗格。
+ > 附註：如果您的 Word 版本不支援增益集命令，增益集會載入工作窗格。
 
 ### <a name="task-pane-ui"></a>工作窗格 UI
 
@@ -93,13 +93,12 @@
 
 ## <a name="additional-resources"></a>其他資源
 
-* 
-  [Office 增益集文件](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Office 增益集文件](https://msdn.microsoft.com/zh-tw/library/office/jj220060.aspx)
 * [Office 開發人員中心](http://dev.office.com/)
-* [Office 365 API 入門專案和程式碼範例](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
+* [Office 365 API 入門專案和程式碼範例](http://msdn.microsoft.com/zh-tw/office/office365/howto/starter-projects-and-code-samples)
 
 ## <a name="copyright"></a>著作權
-Copyright (c) 2016 Microsoft Corporation.著作權所有，並保留一切權利。
+Copyright (c) 2016 Microsoft Corporation 著作權所有，並保留一切權利。
 
 
 

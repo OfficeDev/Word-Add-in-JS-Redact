@@ -16,7 +16,7 @@ Obtenga información sobre cómo crear un complemento que busca, resalta y censu
 25 de julio de 2016:
 * Versión de ejemplo inicial.
 
-##<a name="important-note"></a>Nota importante
+## <a name="important-note"></a>Nota importante
 
 En este ejemplo se censura texto al reemplazar cada letra con un asterisco.  El diseño no se conserva tal cual.  No se realiza ninguna medida ni cálculo para determinar el tipo de letra, el tamaño ni el formato de cada letra.
 
@@ -42,7 +42,7 @@ Ejecute los siguientes comandos desde el shell de Bash en la raíz de este proye
 
 Ahora debe indicarle a Microsoft Word dónde encontrar el complemento.
 
-1. Cree un recurso compartido de red o [comparta una carpeta en la red](https://technet.microsoft.com/en-us/library/cc770880.aspx) y coloque allí el archivo de manifiesto [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml).
+1. Cree un recurso compartido de red o [comparta una carpeta en la red](https://technet.microsoft.com/es-es/library/cc770880.aspx) y coloque allí el archivo de manifiesto [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml).
 3. Inicie Word y abra un documento.
 4. Seleccione la pestaña **Archivo** y haga clic en **Opciones**.
 5. Haga clic en **Centro de confianza** y seleccione el botón **Configuración del Centro de confianza**.
@@ -62,7 +62,7 @@ Ahora debe indicarle a Microsoft Word dónde encontrar el complemento.
 ### <a name="ribbon-ui"></a>Interfaz de usuario de la cinta de opciones
 
 En la cinta de opciones:
-* Seleccione la pestaña **Revisar** y elija **Mostrar el panel de tareas de censura** para iniciar el panel de tareas.
+* Seleccione la ficha **Revisión** y elija **Mostrar el panel de tareas de censura** para iniciar el panel de tareas.
 
  > Nota: El complemento se cargará en un panel de tareas si los comandos del complemento no son compatibles con su versión de Word.
 
@@ -93,10 +93,9 @@ Las preguntas generales sobre desarrollo en Microsoft Office 365 deben publicars
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-* 
-  [Documentación de complementos de Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Documentación de complementos de Office](https://msdn.microsoft.com/es-es/library/office/jj220060.aspx)
 * [Centro de desarrollo de Office](http://dev.office.com/)
-* [Proyectos de inicio y ejemplos de código de las API de Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
+* [Proyectos de inicio y ejemplos de código de las API de Office 365](http://msdn.microsoft.com/es-es/office/office365/howto/starter-projects-and-code-samples)
 
 ## <a name="copyright"></a>Copyright
 Copyright (c) 2016 Microsoft Corporation. Todos los derechos reservados.

@@ -16,7 +16,7 @@ Erfahren Sie, wie Sie ein Add-In erstellen können, das Text sucht, hervorhebt u
 25. Juli 2016:
 * Erste Beispielversion
 
-##<a name="important-note"></a>Wichtiger Hinweis
+## <a name="important-note"></a>Wichtiger Hinweis
 
 In diesem Beispiel wird Text bearbeitet, indem jeder Buchstabe durch ein Sternchen ersetzt wird.  Das Layout als solches wird nicht beibehalten.  Es wird keine Messung und Berechnung ausgeführt, um die Schriftart, Größe oder Formatierung der Buchstaben zu ermitteln.
 
@@ -42,7 +42,7 @@ Führen Sie folgende Befehle in der Bash-Shell im Stammverzeichnis dieses Projek
 
 Jetzt müssen Sie Microsoft Word mitteilen, wo es das Add-In finden kann.
 
-1. Erstellen Sie eine Netzwerkfreigabe oder [geben Sie einen Ordner im Netzwerk frei](https://technet.microsoft.com/en-us/library/cc770880.aspx), und platzieren Sie die [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml)-Manifestdatei darin.
+1. Erstellen Sie eine Netzwerkfreigabe oder [geben Sie einen Ordner im Netzwerk frei](https://technet.microsoft.com/de-de/library/cc770880.aspx), und platzieren Sie die [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml)-Manifestdatei darin.
 3. Starten Sie Word, und öffnen Sie ein Dokument.
 4. Klicken Sie auf die Registerkarte **Datei**, und klicken Sie dann auf **Optionen**.
 5. Wählen Sie **Sicherheitscenter** aus, und klicken Sie dann auf die Schaltfläche **Einstellungen für das Sicherheitscenter**.
@@ -93,10 +93,9 @@ Allgemeine Fragen zur Microsoft Office 365-Entwicklung sollten in [Stack Overflo
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 
-* 
-  [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/de-de/library/office/jj220060.aspx)
 * [Office Dev Center](http://dev.office.com/)
-* [Office 365 APIs – Startprojekte und Codebeispiele](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
+* [Office 365 APIs – Startprojekte und Codebeispiele](http://msdn.microsoft.com/de-de/office/office365/howto/starter-projects-and-code-samples)
 
 ## <a name="copyright"></a>Copyright
 Copyright (c) 2016 Microsoft Corporation. Alle Rechte vorbehalten.

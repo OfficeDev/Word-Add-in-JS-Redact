@@ -16,7 +16,7 @@ Découvrez comment créer un complément qui recherche, met en surbrillance et r
 25 juillet 2016 :
 * Version de l’exemple initial.
 
-##<a name="important-note"></a>Remarque importante
+## <a name="important-note"></a>Remarque importante
 
 Cet exemple rédige du texte en remplaçant chaque lettre par un astérisque.  La disposition n’est pas conservée telle quelle.  Aucune mesure ni aucun calcul n’est effectué pour déterminer la police, la taille ou la mise en forme de chaque lettre.
 
@@ -42,7 +42,7 @@ Cet exemple rédige du texte en remplaçant chaque lettre par un astérisque.  L
 
 Vous devez maintenant indiquer à Microsoft Word où trouver le complément.
 
-1. Créez un partage réseau ou [partagez un dossier sur le réseau](https://technet.microsoft.com/en-us/library/cc770880.aspx), puis placez-y le fichier manifeste [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml).
+1. Créez un partage réseau ou [partagez un dossier sur le réseau](https://technet.microsoft.com/fr-fr/library/cc770880.aspx), puis placez-y le fichier manifeste [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml).
 3. Lancez Word et ouvrez un document.
 4. Choisissez l’onglet **Fichier**, puis choisissez **Options**.
 5. Choisissez l’onglet **Fichier**, puis choisissez **Options**.
@@ -93,13 +93,12 @@ Si vous avez des questions générales sur le développement de Microsoft Office
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-* 
-  [Documentation de complément Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Documentation de complément Office](https://msdn.microsoft.com/fr-fr/library/office/jj220060.aspx)
 * [Centre de développement Office](http://dev.office.com/)
-* [Projets de démarrage et exemples de code des API Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
+* [Projets de démarrage et exemples de code des API Office 365](http://msdn.microsoft.com/fr-fr/office/office365/howto/starter-projects-and-code-samples)
 
 ## <a name="copyright"></a>Copyright
-Copyright (c) 2016 Microsoft Corporation. Tous droits réservés.
+Copyright (c) 2016 Microsoft Corporation. Tous droits réservés.
 
 
 

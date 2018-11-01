@@ -16,7 +16,7 @@
 25 июля 2016 г.
 * Создание исходной версии примера.
 
-##<a name="important-note"></a>Важно!
+## <a name="important-note"></a>Важно!
 
 В этом примере каждая буква в тексте заменяется звездочкой.  Макет не сохраняется.  Шрифт, размер и форматирование букв не определяются.
 
@@ -42,7 +42,7 @@
 
 Теперь необходимо сообщить Microsoft Word, где находится эта надстройка.
 
-1. Создайте сетевую папку или [откройте доступ к папке в сети](https://technet.microsoft.com/en-us/library/cc770880.aspx) и поместите в нее файл манифеста [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml).
+1. Создайте сетевую папку или [откройте доступ к папке в сети](https://technet.microsoft.com/ru-ru/library/cc770880.aspx) и поместите в нее файл манифеста [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml).
 3. Запустите Word и откройте документ.
 4. Перейдите на вкладку **Файл**, а затем выберите **Параметры**.
 5. Выберите **Центр управления безопасностью**, а затем нажмите кнопку **Параметры центра управления безопасностью**.
@@ -62,7 +62,7 @@
 ### <a name="ribbon-ui"></a>Интерфейс пользователя на основе ленты
 
 На ленте:
-* Перейдите на вкладку **Рецензирование** и выберите пункт **Show Redaction Task Pane** (Показать область задач редактирования), чтобы открыть область задач.
+* Перейдите на вкладку **Рецензирование** и выберите пункт **Show Redaction Task Pane**, чтобы открыть область задач.
 
  > Примечание. Если ваша версия Word не поддерживает команды надстроек, то надстройка загрузится в области задач.
 
@@ -93,13 +93,12 @@
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-* 
-  [Документация по надстройкам Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Документация по надстройкам Office](https://msdn.microsoft.com/ru-ru/library/office/jj220060.aspx)
 * [Центр разработки для Office](http://dev.office.com/)
-* [Проекты API Office 365 и примеры кода для начинающих](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
+* [Проекты API Office 365 и примеры кода для начинающих](http://msdn.microsoft.com/ru-ru/office/office365/howto/starter-projects-and-code-samples)
 
 ## <a name="copyright"></a>Авторское право
-© Корпорация Майкрософт (Microsoft Corporation), 2016. Все права защищены.
+© Корпорация Майкрософт (Microsoft Corporation), 2016 г. Все права защищены.
 
 
 
