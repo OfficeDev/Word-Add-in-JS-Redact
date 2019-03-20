@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Word
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 5/3/2016 5:47:14 PM
+---
 # Word  JavaScript Redact Add-in
 
 Learn how you can create an add-in that searches, highlights and redacts text.    
