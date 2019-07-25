@@ -1,3 +1,16 @@
+---
+page_type: sample
+products:
+- office-word
+- office-365
+languages:
+- javascript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 5/3/2016 5:47:14 PM
+---
 # <a name="word--javascript-redact-add-in"></a>Word  JavaScript Redact 增益集
 
 了解如何建立可搜尋、反白及編寫文字的增益集。    
@@ -93,9 +106,7 @@
 
 ## <a name="additional-resources"></a>其他資源
 
-* 
-
-  [Office 增益集文件](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Office 增益集文件](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office 開發人員中心](http://dev.office.com/)
 * [Office 365 API 入門專案和程式碼範例](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
 

@@ -1,3 +1,16 @@
+---
+page_type: sample
+products:
+- office-word
+- office-365
+languages:
+- javascript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 5/3/2016 5:47:14 PM
+---
 # <a name="word--javascript-redact-add-in"></a>Suplemento JavaScript Redact para Word
 
 Saiba como criar um suplemento para pesquisar, realçar e editar texto.    
@@ -93,9 +106,7 @@ As perguntas sobre o desenvolvimento do Office 365 em geral devem ser postadas n
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-* 
-
-  [Documentação dos suplementos do Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Documentação dos suplementos do Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centro de Desenvolvimento do Office](http://dev.office.com/)
 * [Exemplos de código e projetos iniciais de APIs do Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
 

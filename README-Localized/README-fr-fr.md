@@ -1,3 +1,16 @@
+---
+page_type: sample
+products:
+- office-word
+- office-365
+languages:
+- javascript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 5/3/2016 5:47:14 PM
+---
 # <a name="word--javascript-redact-add-in"></a>Complément de rédaction JavaScript pour Word
 
 Découvrez comment créer un complément qui recherche, met en surbrillance et rédige du texte.    
@@ -93,9 +106,7 @@ Si vous avez des questions générales sur le développement de Microsoft Office
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-* 
-
-  [Documentation de complément Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Documentation de complément Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centre de développement Office](http://dev.office.com/)
 * [Projets de démarrage et exemples de code des API Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
 

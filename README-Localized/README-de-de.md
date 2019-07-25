@@ -1,3 +1,16 @@
+---
+page_type: sample
+products:
+- office-word
+- office-365
+languages:
+- javascript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 5/3/2016 5:47:14 PM
+---
 # <a name="word--javascript-redact-add-in"></a>JavaScript-Redact-Add-In für Word
 
 Erfahren Sie, wie Sie ein Add-In erstellen können, das Text sucht, hervorhebt und bearbeitet.    
@@ -93,9 +106,7 @@ Allgemeine Fragen zur Microsoft Office 365-Entwicklung sollten in [Stack Overflo
 
 ## <a name="additional-resources"></a>Zusätzliche Ressourcen
 
-* 
-
-  [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Dokumentation zu Office-Add-Ins](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office Dev Center](http://dev.office.com/)
 * [Office 365 APIs – Startprojekte und Codebeispiele](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
 

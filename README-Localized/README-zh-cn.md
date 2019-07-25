@@ -1,3 +1,16 @@
+---
+page_type: sample
+products:
+- office-word
+- office-365
+languages:
+- javascript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 5/3/2016 5:47:14 PM
+---
 # <a name="word--javascript-redact-add-in"></a>Word  JavaScript Redact 外接程序
 
 了解如何创建对文本进行搜索、突出显示和修订的外接程序。    
@@ -93,9 +106,7 @@
 
 ## <a name="additional-resources"></a>其他资源
 
-* 
-
-  [Office 外接程序文档](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Office 外接程序文档](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office 开发人员中心](http://dev.office.com/)
 * [Office 365 API 入门项目和代码示例](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
 

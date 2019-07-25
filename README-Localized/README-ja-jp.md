@@ -1,3 +1,16 @@
+---
+page_type: sample
+products:
+- office-word
+- office-365
+languages:
+- javascript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 5/3/2016 5:47:14 PM
+---
 # <a name="word--javascript-redact-add-in"></a>Word JavaScript Redact アドイン
 
 テキストの検索、強調表示、編集を行うアドインを作成する方法について説明します。    
@@ -93,9 +106,7 @@ Microsoft Office 365 開発全般の質問につきましては、「[スタッ�
 
 ## <a name="additional-resources"></a>その他の技術情報
 
-* 
-
-  [Office アドインのドキュメント](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Office アドインのドキュメント](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Office デベロッパー センター](http://dev.office.com/)
 * [Office 365 API スタート プロジェクトとコード サンプル](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
 

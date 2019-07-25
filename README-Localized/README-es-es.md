@@ -1,3 +1,16 @@
+---
+page_type: sample
+products:
+- office-word
+- office-365
+languages:
+- javascript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 5/3/2016 5:47:14 PM
+---
 # <a name="word--javascript-redact-add-in"></a>Complemento de censura de JavaScript para Word
 
 Obtenga información sobre cómo crear un complemento que busca, resalta y censura texto.    
@@ -93,9 +106,7 @@ Las preguntas generales sobre desarrollo en Microsoft Office 365 deben publicars
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-* 
-
-  [Documentación de complementos de Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Documentación de complementos de Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Centro de desarrollo de Office](http://dev.office.com/)
 * [Proyectos de inicio y ejemplos de código de las API de Office 365](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
 

@@ -1,3 +1,16 @@
+---
+page_type: sample
+products:
+- office-word
+- office-365
+languages:
+- javascript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 5/3/2016 5:47:14 PM
+---
 # <a name="word--javascript-redact-add-in"></a>Надстройка JavaScript для исправления текста в Word
 
 Узнайте, как создать надстройку для поиска, выделения и исправления текста.    
@@ -93,9 +106,7 @@
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-* 
-
-  [Документация по надстройкам Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Документация по надстройкам Office](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
 * [Центр разработки для Office](http://dev.office.com/)
 * [Проекты API Office 365 и примеры кода для начинающих](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
 
