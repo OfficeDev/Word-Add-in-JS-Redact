@@ -1,17 +1,21 @@
 ---
 page_type: sample
 products:
+- office
 - office-word
 - office-365
 languages:
 - javascript
+description: "Learn how you can create an add-in that searches, highlights and redacts text."
+urlFragment: redact-add-in
 extensions:
   contentType: samples
   technologies:
   - Add-ins
-  createdDate: 5/3/2016 5:47:14 PM
+  createdDate: "5/3/2016 5:47:14 PM"
 ---
-# Word  JavaScript Redact Add-in
+
+# Word JavaScript Redact Add-in
 
 Learn how you can create an add-in that searches, highlights and redacts text.    
 
@@ -55,7 +59,7 @@ Run the following commands from your Bash shell at the root of this project:
 
 Now you need to let Microsoft Word know where to find the add-in.
 
-1. Create a network share, or [share a folder to the network](https://technet.microsoft.com/en-us/library/cc770880.aspx) and place the [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml) manifest file in it.
+1. Create a network share, or [share a folder to the network](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770880(v=ws.11)) and place the [word-add-in-javascript-speckit-manifest.xml](word-add-in-javascript-speckit-manifest.xml) manifest file in it.
 3. Launch Word and open a document.
 4. Choose the **File** tab, and then choose **Options**.
 5. Choose **Trust Center**, and then choose the **Trust Center Settings** button.
@@ -106,9 +110,9 @@ Questions about Microsoft Office 365 development in general should be posted to 
 
 ## Additional resources
 
-* [Office add-in documentation](https://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+* [Office add-in documentation](https://docs.microsoft.com/office/dev/add-ins/publish/publish)
 * [Office Dev Center](http://dev.office.com/)
-* [Office 365 APIs starter projects and code samples](http://msdn.microsoft.com/en-us/office/office365/howto/starter-projects-and-code-samples)
+* [Office 365 APIs starter projects and code samples](https://docs.microsoft.com/previous-versions/office/office-365-api/)
 
 ## Copyright
 Copyright (c) 2016 Microsoft Corporation. All rights reserved.
