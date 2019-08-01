@@ -1,21 +1,6 @@
----
-page_type: sample
-products:
-- office
-- office-word
-- office-365
-languages:
-- javascript
-description: "Learn how you can create an add-in that searches, highlights and redacts text."
-urlFragment: redact-add-in
-extensions:
-  contentType: samples
-  technologies:
-  - Add-ins
-  createdDate: "5/3/2016 5:47:14 PM"
----
+# [ARCHIVED] Word JavaScript Redact Add-in
 
-# Word JavaScript Redact Add-in
+**Note:** This repo is archived and no longer actively maintained. Security vulnerabilities may exist in the project, or its dependencies. If you plan to reuse or run any code from this repo, be sure to perform appropriate security checks on the code or dependencies first. Do not use this project as the starting point of a production Office Add-in. Always start your production code by using the Office/SharePoint development workload in Visual Studio, or the [Yeoman generator for Office Add-ins](https://github.com/OfficeDev/generator-office), and follow security best practices as you develop the add-in. 
 
 Learn how you can create an add-in that searches, highlights and redacts text.    
 
